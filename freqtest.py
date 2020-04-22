@@ -44,7 +44,7 @@ frq, X = frequency_sepectrum(y, sr)
 
 plt.subplot(2, 1, 2)
 plt.plot(frq, X, 'b')
-plt.xlabel('Freq (Hz)')
+plt.xlabel('Freq (Hz)') 
 plt.ylabel('|X(freq)|')
 plt.tight_layout()
 
